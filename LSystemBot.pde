@@ -99,11 +99,13 @@ String getJSONFromTwitter() {
     System.out.println("Failed to search tweets: " + te.getMessage());
   }
 
+  //Test data.
   //data = "{\"start\":\"FFH\",\"rules\":{\"F\":\"FFFHI\",\"I\":\"\",\"H\":\"HCH-H+C\",\"C\":\"FI\"},\"a\":60,\"iter\":6}";
   //data = "{\"start\":\"YHYF\",\"rules\":{\"F\":\"+YF+FFFH+\",\"Y\":\"FFHY\",\"H\":\"[[]F-]H\"},\"a\":60,\"iter\":6} ";
   //data = "{\"start\":\"YK\",\"rules\":{\"F\":\"FC\",\"R\":\"KF\",\"K\":\"K-FYR\",\"C\":\"FKR+\",\"Y\":\"FK-F\"},\"a\":135,\"iter\":7}";
   //data = "{\"start\":\"FSQQ\",\"rules\":{\"F\":\"F[Y]F\",\"Q\":\"AF-FSFAF\",\"Y\":\"Y[+]ANFAF\",\"S\":\"YN[QNY]F+S\",\"N\":\"+F+FA-+YS\",\"A\":\"[A]+\"}}";
-  data = "{\"start\":\"NIIN\",\"rules\":{\"F\":\"F-[F]-\",\"I\":\"-\",\"N\":\"W\",\"W\":\"FI\",\"K\":\"FV+FVI\",\"V\":\"[-W]VFFNF\"},\"a\":45,\"iter\":10}";
+  //data = "{\"start\":\"NIIN\",\"rules\":{\"F\":\"F-[F]-\",\"I\":\"-\",\"N\":\"W\",\"W\":\"FI\",\"K\":\"FV+FVI\",\"V\":\"[-W]VFFNF\"},\"a\":45,\"iter\":10}";
+  
   return data;
 }
 

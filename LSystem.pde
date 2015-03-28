@@ -62,10 +62,8 @@ class LSystem {
 
         char key = system.charAt(f);
         String app = rules[key];
-        //Tarda lo mismo en concatenar un null que en comprobar que no lo sea
-        //if (app!=null) {
         newSystem = newSystem.concat(app);
-        //}
+
       }
 
       system = newSystem;
